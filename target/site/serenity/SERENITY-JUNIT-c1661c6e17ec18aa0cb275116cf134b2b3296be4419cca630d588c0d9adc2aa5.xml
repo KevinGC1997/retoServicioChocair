@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="4" name="consumir endpoints" skipped="0" tests="5" time="9.49" timestamp="2023-05-07 10:25:44"><testcase name="Obtener todos los empleado"><failure message="1 expectation failed.&#10;XML path status doesn't match.&#10;Expected: success&#10;  Actual: nullnullToo Many Requestsnullnull&#10;            html, body {&#10;                background-color: #fff;&#10;                color: #636b6f;&#10;                font-family: 'Nunito', sans-serif;&#10;                font-weight: 100;&#10;                height: 100vh;&#10;                margin: 0;&#10;            }&#10;&#10;            .full-height {&#10;                height: 100vh;&#10;            }&#10;&#10;            .flex-center {&#10;                align-items: center;&#10;                display: flex;&#10;                justify-content: center;&#10;            }&#10;&#10;            .position-ref {&#10;                position: relative;&#10;            }&#10;&#10;            .code {&#10;                border-right: 2px solid;&#10;                font-size: 26px;&#10;                padding: 0 15px 0 15px;&#10;                text-align: center;&#10;            }&#10;&#10;            .message {&#10;                font-size: 18px;&#10;                text-align: center;&#10;            }&#10;        &#10;                429            &#10;                Too Many Requests            &#10;" type="java.lang.AssertionError">1 expectation failed.
+XML path status doesn't match.
+Expected: success
+  Actual: nullnullToo Many Requestsnullnull
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        
+                429            
+                Too Many Requests            
+</failure><system-err>1 expectation failed.
+XML path status doesn't match.
+Expected: success
+  Actual: nullnullToo Many Requestsnullnull
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        
+                429            
+                Too Many Requests            
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)&#13;
+io.restassured.internal.ResponseSpecificationImpl.content(ResponseSpecificationImpl.groovy:277)&#13;
+io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:260)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:274)&#13;
+servicios.stepDefinitions.ObtenerEmpleadosStepDefinitions.validaQueElContenidoDeLaLlaveSea(ObtenerEmpleadosStepDefinitions.java:18)&#13;
+✽.valida que el contenido de la llave "status" sea "success"(src/test/resources/servicios/ConsumoApiRest.feature:6)&#13;
+</system-err></testcase><testcase name="Obtener un empleado"><failure message="1 expectation failed.&#10;XML path status doesn't match.&#10;Expected: success&#10;  Actual: nullnullToo Many Requestsnullnull&#10;            html, body {&#10;                background-color: #fff;&#10;                color: #636b6f;&#10;                font-family: 'Nunito', sans-serif;&#10;                font-weight: 100;&#10;                height: 100vh;&#10;                margin: 0;&#10;            }&#10;&#10;            .full-height {&#10;                height: 100vh;&#10;            }&#10;&#10;            .flex-center {&#10;                align-items: center;&#10;                display: flex;&#10;                justify-content: center;&#10;            }&#10;&#10;            .position-ref {&#10;                position: relative;&#10;            }&#10;&#10;            .code {&#10;                border-right: 2px solid;&#10;                font-size: 26px;&#10;                padding: 0 15px 0 15px;&#10;                text-align: center;&#10;            }&#10;&#10;            .message {&#10;                font-size: 18px;&#10;                text-align: center;&#10;            }&#10;        &#10;                429            &#10;                Too Many Requests            &#10;" type="java.lang.AssertionError">1 expectation failed.
+XML path status doesn't match.
+Expected: success
+  Actual: nullnullToo Many Requestsnullnull
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        
+                429            
+                Too Many Requests            
+</failure><system-err>1 expectation failed.
+XML path status doesn't match.
+Expected: success
+  Actual: nullnullToo Many Requestsnullnull
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        
+                429            
+                Too Many Requests            
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)&#13;
+io.restassured.internal.ResponseSpecificationImpl.content(ResponseSpecificationImpl.groovy:277)&#13;
+io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:260)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:274)&#13;
+servicios.stepDefinitions.ObtenerEmpleadosStepDefinitions.validaQueElContenidoDeLaLlaveSea(ObtenerEmpleadosStepDefinitions.java:18)&#13;
+✽.valida que el contenido de la llave "status" sea "success"(src/test/resources/servicios/ConsumoApiRest.feature:15)&#13;
+</system-err></testcase><testcase name=": Crea un nuevo empleado"><failure message="1 expectation failed.&#10;XML path status doesn't match.&#10;Expected: success&#10;  Actual: nullnullToo Many Requestsnullnull&#10;            html, body {&#10;                background-color: #fff;&#10;                color: #636b6f;&#10;                font-family: 'Nunito', sans-serif;&#10;                font-weight: 100;&#10;                height: 100vh;&#10;                margin: 0;&#10;            }&#10;&#10;            .full-height {&#10;                height: 100vh;&#10;            }&#10;&#10;            .flex-center {&#10;                align-items: center;&#10;                display: flex;&#10;                justify-content: center;&#10;            }&#10;&#10;            .position-ref {&#10;                position: relative;&#10;            }&#10;&#10;            .code {&#10;                border-right: 2px solid;&#10;                font-size: 26px;&#10;                padding: 0 15px 0 15px;&#10;                text-align: center;&#10;            }&#10;&#10;            .message {&#10;                font-size: 18px;&#10;                text-align: center;&#10;            }&#10;        &#10;                429            &#10;                Too Many Requests            &#10;" type="java.lang.AssertionError">1 expectation failed.
+XML path status doesn't match.
+Expected: success
+  Actual: nullnullToo Many Requestsnullnull
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        
+                429            
+                Too Many Requests            
+</failure><system-err>1 expectation failed.
+XML path status doesn't match.
+Expected: success
+  Actual: nullnullToo Many Requestsnullnull
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        
+                429            
+                Too Many Requests            
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)&#13;
+io.restassured.internal.ResponseSpecificationImpl.content(ResponseSpecificationImpl.groovy:277)&#13;
+io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:260)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:274)&#13;
+servicios.stepDefinitions.ObtenerEmpleadosStepDefinitions.validaQueElContenidoDeLaLlaveSea(ObtenerEmpleadosStepDefinitions.java:18)&#13;
+✽.valida que el contenido de la llave "status" sea "success"(src/test/resources/servicios/ConsumoApiRest.feature:27)&#13;
+</system-err></testcase><testcase name="Actualiza un empleado"/><testcase name="Eliminar empleado"><failure message="1 expectation failed.&#10;XML path status doesn't match.&#10;Expected: success&#10;  Actual: nullnullToo Many Requestsnullnull&#10;            html, body {&#10;                background-color: #fff;&#10;                color: #636b6f;&#10;                font-family: 'Nunito', sans-serif;&#10;                font-weight: 100;&#10;                height: 100vh;&#10;                margin: 0;&#10;            }&#10;&#10;            .full-height {&#10;                height: 100vh;&#10;            }&#10;&#10;            .flex-center {&#10;                align-items: center;&#10;                display: flex;&#10;                justify-content: center;&#10;            }&#10;&#10;            .position-ref {&#10;                position: relative;&#10;            }&#10;&#10;            .code {&#10;                border-right: 2px solid;&#10;                font-size: 26px;&#10;                padding: 0 15px 0 15px;&#10;                text-align: center;&#10;            }&#10;&#10;            .message {&#10;                font-size: 18px;&#10;                text-align: center;&#10;            }&#10;        &#10;                429            &#10;                Too Many Requests            &#10;" type="java.lang.AssertionError">1 expectation failed.
+XML path status doesn't match.
+Expected: success
+  Actual: nullnullToo Many Requestsnullnull
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        
+                429            
+                Too Many Requests            
+</failure><system-err>1 expectation failed.
+XML path status doesn't match.
+Expected: success
+  Actual: nullnullToo Many Requestsnullnull
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        
+                429            
+                Too Many Requests            
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)&#13;
+io.restassured.internal.ResponseSpecificationImpl.content(ResponseSpecificationImpl.groovy:277)&#13;
+io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:260)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:274)&#13;
+servicios.stepDefinitions.ObtenerEmpleadosStepDefinitions.validaQueElContenidoDeLaLlaveSea(ObtenerEmpleadosStepDefinitions.java:18)&#13;
+✽.valida que el contenido de la llave "status" sea "success"(src/test/resources/servicios/ConsumoApiRest.feature:48)&#13;
+</system-err></testcase></testsuite>
