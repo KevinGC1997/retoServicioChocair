@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"consumir endpoints","Obtener todos los empleado","SUCCESS","2023-05-08T09:39:47.2649607-05:00[America/Bogota]","0.0","6.4"
+"consumir endpoints","Obtener un empleado","FAILURE","2023-05-08T09:39:53.6704107-05:00[America/Bogota]","0.0","1.15"
+"consumir endpoints",": Crea un nuevo empleado","FAILURE","2023-05-08T09:39:54.9069058-05:00[America/Bogota]","0.0","0.74"
+"consumir endpoints","Actualiza un empleado","FAILURE","2023-05-08T09:39:55.6590759-05:00[America/Bogota]","0.0","0.6"
+"consumir endpoints","Eliminar empleado","FAILURE","2023-05-08T09:39:56.2672317-05:00[America/Bogota]","0.0","0.68"

@@ -98,7 +98,7 @@
             <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 07-05-2023 22:25</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 08-05-2023 09:39</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -138,9 +138,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">
+                                <span class="failing-color">
                                     Actualiza un empleado
                                         <span class="related-issue-title"></span>
                                 </span>
@@ -187,17 +187,17 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="test-SUCCESS"><a href="#0">1</a></td>
-                                <td class="test-SUCCESS"><a
+                            <td class="test-FAILURE"><a href="#0">1</a></td>
+                                <td class="test-FAILURE"><a
                                             href="#0">https://dummy.restapiexample.com/api/v1/update/21</a>
                                 </td>
-                                <td class="test-SUCCESS"><a
+                                <td class="test-FAILURE"><a
                                             href="#0">test</a>
                                 </td>
-                                <td class="test-SUCCESS"><a
+                                <td class="test-FAILURE"><a
                                             href="#0">123</a>
                                 </td>
-                                <td class="test-SUCCESS"><a
+                                <td class="test-FAILURE"><a
                                             href="#0">23</a>
                                 </td>
                         </tr>
@@ -222,12 +222,12 @@
                 <tr class="step-table-separator">
                     <td colspan="5"></td>
                 </tr>
-                <tr class="test-SUCCESS">
+                <tr class="test-FAILURE">
                     <td width="50" class="step-icon">
                         <a name="0"/>
                             <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
                                style="display:block">
-                                <i class="fa fa-plus-square-o imgstepSection0 success-icon"
+                                <i class="fa fa-plus-square-o imgstepSection0 failure-icon"
                                    style="margin-left: 20px; float:left;  padding-right:5px"></i>
                             </a>
                     </td>
@@ -243,8 +243,8 @@
                             </span>
                         </div>
                     </td>
-                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">1.54s</span></td>
+                    <td width="100"><span class="top-level-step">FAILURE</span></td>
+                    <td width="100"><span class="top-level-step">0.58s</span></td>
                 </tr>
                 <tr>
                     <td colspan="5">
@@ -272,7 +272,7 @@
                         </div>
                     </td>
                     <td width="100"><span class="nested-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-step">1.43s</span></td>
+                    <td width="100"><span class="nested-step">0.52s</span></td>
                 </tr>
                 <tr>
                     <td colspan="5">
@@ -303,7 +303,7 @@
                                 <div class="card">
                                     <div class="card-body">
                                         <h4>Response</h4>
-                                            <p>Status code: 200</p>
+                                            <p>Status code: 429</p>
                                             <p>Content Type: application/json</p>
                                             <h4>Request Headers</h4>
                                             <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
@@ -312,9 +312,9 @@
                                             <h4>Request Cookies</h4>
                                             <pre></pre>
                                             <h4>Response Headers</h4>
-                                            <pre>Date: Mon, 08 May 2023 03:25:54 GMT<br>Server: Apache<br>Cache-Control: no-cache, private<br>X-RateLimit-Limit: 60<br>X-RateLimit-Remaining: 58<br>Upgrade: h2,h2c<br>Connection: Upgrade<br>Cache-Control: max-age=21600<br>Expires: Mon, 08 May 2023 09:25:54 GMT<br>Vary: Accept-Encoding<br>Content-Encoding: gzip<br>host-header: c2hhcmVkLmJsdWVob3N0LmNvbQ==<br>X-Endurance-Cache-Level: 2<br>X-nginx-cache: WordPress<br>Content-Length: 114<br>Content-Type: application/json</pre>
+                                            <pre>Date: Mon, 08 May 2023 14:39:57 GMT<br>Server: Apache<br>X-RateLimit-Limit: 60<br>X-RateLimit-Remaining: 55<br>retry-after: 57<br>x-ratelimit-reset: 1683556854<br>Cache-Control: no-cache, private<br>Upgrade: h2,h2c<br>Connection: Upgrade<br>Vary: Accept-Encoding<br>Content-Encoding: gzip<br>host-header: c2hhcmVkLmJsdWVob3N0LmNvbQ==<br>X-Endurance-Cache-Level: 2<br>X-nginx-cache: WordPress<br>Content-Length: 595<br>Content-Type: text/html; charset=UTF-8</pre>
                                         <h4>Response Body</h4>
-                                            <pre>{<br>    &quot;status&quot;: &quot;success&quot;,<br>    &quot;data&quot;: {<br>        &quot;name&quot;: &quot;test&quot;,<br>        &quot;salary&quot;: &quot;123&quot;,<br>        &quot;age&quot;: &quot;23&quot;<br>    },<br>    &quot;message&quot;: &quot;Successfully! Record has been updated.&quot;<br>}</pre>
+                                            <pre>&lt;html lang=&quot;en&quot;&gt;<br>  &lt;head&gt;<br>    &lt;meta charset=&quot;utf-8&quot;/&gt;<br>    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;/&gt;<br>    &lt;title&gt;Too Many Requests&lt;/title&gt;<br>    &lt;link rel=&quot;dns-prefetch&quot; href=&quot;//fonts.gstatic.com&quot;/&gt;<br>    &lt;link href=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; rel=&quot;stylesheet&quot;/&gt;<br>    &lt;style&gt;<br>            html, body {<br>                background-color: #fff;<br>                color: #636b6f;<br>                font-family: 'Nunito', sans-serif;<br>                font-weight: 100;<br>                height: 100vh;<br>                margin: 0;<br>            }<br><br>            .full-height {<br>                height: 100vh;<br>            }<br><br>            .flex-center {<br>                align-items: center;<br>                display: flex;<br>                justify-content: center;<br>            }<br><br>            .position-ref {<br>                position: relative;<br>            }<br><br>            .code {<br>                border-right: 2px solid;<br>                font-size: 26px;<br>                padding: 0 15px 0 15px;<br>                text-align: center;<br>            }<br><br>            .message {<br>                font-size: 18px;<br>                text-align: center;<br>            }<br>        &lt;/style&gt;<br>  &lt;/head&gt;<br>  &lt;body&gt;<br>    &lt;div class=&quot;flex-center position-ref full-height&quot;&gt;<br>      &lt;div class=&quot;code&quot;&gt;<br>                429            &lt;/div&gt;<br>      &lt;div class=&quot;message&quot; style=&quot;padding: 10px;&quot;&gt;<br>                Too Many Requests            &lt;/div&gt;<br>    &lt;/div&gt;<br>  &lt;/body&gt;<br>&lt;/html&gt;</pre>
                                     </div>
                                 </div>
                             </div>
@@ -330,11 +330,11 @@
                         </table>
                     </td>
                 <tr>
-                <tr class="test-SUCCESS">
+                <tr class="test-FAILURE">
                     <td width="50" class="step-icon">
                         <a name="0-1"/>
                             <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a></span>
+                                  class="nested-group-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a></span>
                     </td>
                     <td>
                         <div class="step-description">
@@ -345,14 +345,52 @@
                             </span>
                         </div>
                     </td>
-                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.1s</span></td>
+                    <td width="100"><span class="nested-group-step">FAILURE</span></td>
+                    <td width="100"><span class="nested-group-step">0.03s</span></td>
                 </tr>
-                <tr class="test-SUCCESS">
+                    <tr class="test-FAILURE">
+                        <td width="40">&nbsp</td>
+                        <td width="%" colspan="3" class="error-message-cell">
+
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">java.lang.AssertionError: 1 expectation failed.<br>XML path status doesn&#39;t match.<br>Expected: success<br>  Actual: nullnullToo Many Requestsnullnull<br>            html, body {<br>                background-color: #fff;<br>                color: #636b6f;<br>                font-family: &#39;Nunito&#39;, sans-serif;<br>                font-weight: 100;<br>                height: 100vh;<br>                margin: 0;<br>            }<br><br>            .full-height {<br>                height: 100vh;<br>            }<br><br>            .flex-center {<br>                align-items: center;<br>                display: flex;<br>                justify-content: center;<br>            }<br><br>            .position-ref {<br>                position: relative;<br>            }<br><br>            .code {<br>                border-right: 2px solid;<br>                font-size: 26px;<br>                padding: 0 15px 0 15px;<br>                text-align: center;<br>            }<br><br>            .message {<br>                font-size: 18px;<br>                text-align: center;<br>            }<br>        <br>                429            <br>                Too Many Requests            <br></span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-4""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-4">
+            <div class="card">
+                <div class="card-header">
+                    <h4>java.lang.AssertionError </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)<br />io.restassured.internal.ResponseSpecificationImpl.content(ResponseSpecificationImpl.groovy:277)<br />io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:260)<br />io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:274)<br />servicios.stepDefinitions.ObtenerEmpleadosStepDefinitions.validaQueElContenidoDeLaLlaveSea(ObtenerEmpleadosStepDefinitions.java:18)<br />✽.valida que el contenido de la llave "status" sea "success"(src/test/resources/servicios/ConsumoApiRest.feature:39)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+                        </td>
+                    </tr>
+                <tr class="test-SKIPPED">
                     <td width="50" class="step-icon">
                         <a name="0-2"/>
                             <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a></span>
+                                  class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a></span>
                     </td>
                     <td>
                         <div class="step-description">
@@ -363,17 +401,17 @@
                             </span>
                         </div>
                     </td>
-                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.01s</span></td>
+                    <td width="100"><span class="nested-group-step">SKIPPED</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
                 </tr>
 
                         </table>
                     </td>
                 <tr>
-                <tr class="test-SUCCESS">
+                <tr class="test-FAILURE">
                         <td colspan="2"></td>
-                    <td width="100"><span class="top-level-step"><em>SUCCESS</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>1.55s</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>FAILURE</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>0.6s</em></span></td>
                 </tr>
 
             </table>
